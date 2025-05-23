@@ -66,7 +66,7 @@ if not capture.isOpened():
 
 with mp_hands.Hands(
     static_image_mode=False,
-    max_num_hands=2,
+    max_num_hands=100,
     min_detection_confidence=0.8,
     min_tracking_confidence=0.5
 ) as hands:
